@@ -30,8 +30,10 @@ table th {
         </style>
     </head>
     <body>
+        <button type="button" onclick="toShowTimetable">Click Me</button>
 <script type="text/javascript">
-    function loadXMLDoc(dname)
+    function toShowTimetable(){
+        function loadXMLDoc(dname)
 {
     if (window.XMLHttpRequest)
     {
@@ -59,6 +61,7 @@ for (i=0;i<x.length;i++)
   document.write("</td></tr>");
   }
 document.write("</table>");
+    }
  
 
 </script>
