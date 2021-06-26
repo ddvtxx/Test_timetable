@@ -24,7 +24,6 @@
     var x=xmlDoc.getElementsByTagName("Evento");
 for (i=0;i<x.length;i++)
   {
-  alert(i);
   document.write("<tr><td>");
   document.write(x[i].getElementsByTagName("Descrizione")[0].childNodes[0].nodeValue);
   document.write("</td><td>");
@@ -32,7 +31,6 @@ for (i=0;i<x.length;i++)
   document.write("</td><td>");
   document.write(xmlDoc.getElementsByTagName("Codice")[i].childNodes[0].nodeValue);
   document.write("</td></tr>");
-  document.write("<br/>");
   }
 document.write("</table>");
  
