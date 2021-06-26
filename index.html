@@ -2,10 +2,9 @@
 <html>
 <body>
 <html>
-
-    <head>
-        
-        <script type="text/javascript">
+<script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.min.js"></script>
+    <body>
+<script type="text/javascript">
     function loadXMLDoc(dname)
 {
     if (window.XMLHttpRequest)
@@ -20,15 +19,22 @@
     xhttp.send();
     return xhttp.responseXML;
 }
-    xmlDoc=loadXMLDoc('timeTable.xml');
+    xmlDoc=loadXMLDoc("timeTable.xml");
+    var x=xmlDoc.getElementsByTagName("Evento");
+for (i=0;i<x.length;i++)
+  {
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("Descrizione")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("OraInizio")[0].childNodes[0].nodeValue+"--"+x[i].getElementsByTagName("OraFine")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(xmlDoc.getElementsByTagName("Codice")[i].childNodes[0].nodeValue);
+  document.write("</td></tr>");
+  }
+document.write("</table>");
+ 
 
-document.write(xmlDoc.getElementsByTagName("title")[0].childNodes[0].nodeValue + "<br>");
-document.write(xmlDoc.getElementsByTagName("author")[0].childNodes[0].nodeValue + "<br>");
-document.write(xmlDoc.getElementsByTagName("year")[0].childNodes[0].nodeValue);
 </script>
-    </head>
-    <body>
-        <p><b>To:</b><span id="to"></span>
     </body>
 </html>
 </body>
