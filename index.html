@@ -20,6 +20,7 @@
     return xhttp.responseXML;
 }
     xmlDoc=loadXMLDoc("timeTable.xml");
+    document.write("<table>");
     var x=xmlDoc.getElementsByTagName("Evento");
 for (i=0;i<x.length;i++)
   {
