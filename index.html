@@ -21,14 +21,14 @@
     return xhttp.responseXML;
 }
     xmlDoc=loadXMLDoc('timeTable.xml');
-    x=xmlDoc.getElementsByTagName('b')[0];
-    document.write(x.nodeValue);
+
+    document.getElementById("to").innerHTML=xmlDoc.getElementsByTagName('a')[0].childNodes[0].nodeValue; 
  
 
 </script>
     </head>
     <body>
-
+        <p><b>To:</b><span id="to"></span>
     </body>
 </html>
 </body>
