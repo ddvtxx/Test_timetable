@@ -23,13 +23,68 @@
 </Aule>
 </Evento>
 <Evento>
-...
+<Descrizione>Chiani/Giorgetti - II LT Bio/Ele - Elaborazione dei segnali - esame per laureandi</Descrizione>
+<CodiceModulo> </CodiceModulo>
+<CodiceAttivita> </CodiceAttivita>
+<Cdl> </Cdl>
+<RisorsaMobile> </RisorsaMobile>
+<Data>14/11/2018</Data>
+<OraInizio>09:00</OraInizio>
+<OraFine>11:00</OraFine>
+<Docenti/>
+<Aule>
+<Aula>
+<Codice>EXZUCC_2.6</Codice>
+<Descrizione>AULA 2.6</Descrizione>
+<Edificio Codice="EST_EXZUCC1">Ex-Zuccherificio – Edificio 1</Edificio>
+<Piano>Piano Terra</Piano>
+<Ubicazione>Via Dell'Università 50, Cesena, Piano terra (livello 2)</Ubicazione>
+</Aula>
+</Aule>
 </Evento>
 <Evento>
-...
+<Descrizione>ALGEBRA E ANALISI NUMERICA LM</Descrizione>
+<CodiceModulo>72548</CodiceModulo>
+<CodiceAttivita>72548</CodiceAttivita>
+<Cdl>9243</Cdl>
+<RisorsaMobile> </RisorsaMobile>
+<Data>14/11/2018</Data>
+<OraInizio>09:00</OraInizio>
+<OraFine>11:00</OraFine>
+<Docenti>
+<Docente Matricola="31762">Serena Morigi</Docente>
+</Docenti>
+<Aule>
+<Aula>
+<Codice>EXZUCC_3.3</Codice>
+<Descrizione>LABORATORIO 3.3</Descrizione>
+<Edificio Codice="EST_EXZUCC1">Ex-Zuccherificio – Edificio 1</Edificio>
+<Piano>Piano Primo</Piano>
+<Ubicazione>Via Dell'Università 50, Cesena, Piano primo (livello 3)</Ubicazione>
+</Aula>
+</Aule>
 </Evento>
 <Evento>
-...
+<Descrizione>TELECOMUNICAZIONI LM (C.I.) - RETI DI TELECOMUNICAZIONI LM</Descrizione>
+<CodiceModulo>34980</CodiceModulo>
+<CodiceAttivita>34980</CodiceAttivita>
+<Cdl>8770</Cdl>
+<RisorsaMobile> </RisorsaMobile>
+<Data>14/11/2018</Data>
+<OraInizio>09:00</OraInizio>
+<OraFine>11:00</OraFine>
+<Docenti>
+<Docente Matricola="30946">Franco Callegati</Docente>
+</Docenti>
+<Aule>
+<Aula>
+<Codice>EXZUCC_2.13</Codice>
+<Descrizione>AULA 2.13</Descrizione>
+<Edificio Codice="EST_EXZUCC1">Ex-Zuccherificio – Edificio 1</Edificio>
+<Piano>Piano Terra</Piano>
+<Ubicazione>Via Dell'Università 50, Cesena, Piano terra (livello 2)</Ubicazione>
+</Aula>
+</Aule>
 </Evento>
 <Evento>
 <Descrizione>COMPORTAMENTO MECCANICO DEI MATERIALI E BIOMATERIALI (C.I.) - COMPORTAMENTO MECCANICO DEI MATERIALI</Descrizione>
