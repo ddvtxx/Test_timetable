@@ -21,9 +21,9 @@
     return xhttp.responseXML;
 }
     xmlDoc=loadXMLDoc("timeTable.xml");
-    var x=xmlDoc.getElementsByTagName('Evento')[0];
-    var y=x.childNodes[0];
-    document.write(y.data);
+    x=xmlDoc.getElementsByTagName("Evento")[0]
+    y=x.childNodes[0];
+    document.write(y.nodeValue);
  
 
 </script>
