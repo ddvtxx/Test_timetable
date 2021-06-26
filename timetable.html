@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<html>
+<script src="http://apps.bdimg.com/libs/jquery/1.6.4/jquery.min.js"></script>
+    <body>
+<script type="text/javascript">
+    function loadXMLDoc(dname)
+{
+    if (window.XMLHttpRequest)
+    {
+        xhttp=new XMLHttpRequest();
+    }
+    else
+    {
+        xhttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+    xhttp.open("GET",dname,false);
+    xhttp.send();
+    return xhttp.responseXML;
+}
+    xmlDoc=loadXMLDoc("timeTable.xml");
+    var x=xmlDoc.getElementsByTagName("Evento");
+for (i=0;i<x.length;i++)
+  {
+  document.write("<tr><td>");
+  document.write(x[i].getElementsByTagName("Descrizione")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(x[i].getElementsByTagName("OraInizio")[0].childNodes[0].nodeValue+"--"+x[i].getElementsByTagName("OraFine")[0].childNodes[0].nodeValue);
+  document.write("</td><td>");
+  document.write(xmlDoc.getElementsByTagName("Codice")[i].childNodes[0].nodeValue);
+  document.write("</td></tr>");
+  }
+document.write("</table>");
+ 
+
+</script>
+    </body>
+</html>
+</body>
+</html>
