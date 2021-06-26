@@ -1,24 +1,3 @@
-<Orario>
-<Evento>
-<Descrizione>LEGISLAZIONE URBANISTICA E DELLE OO.PP.</Descrizione>
-<CodiceModulo>32709</CodiceModulo>
-<CodiceAttivita>32709</CodiceAttivita>
-<Cdl>0881</Cdl>
-<RisorsaMobile> </RisorsaMobile>
-<Data>14/11/2018</Data>
-<OraInizio>09:00</OraInizio>
-<OraFine>11:00</OraFine>
-<Docenti>
-<Docente Matricola="47230">Giammaria Muratori</Docente>
-</Docenti>
-<Aule>
-<Aula>
-<Codice>EXZUCC_4.1</Codice>
-<Descrizione>AULA 4.1</Descrizione>
-<Edificio Codice="EST_EXZUCC1">Ex-Zuccherificio – Edificio 1</Edificio>
-<Piano>Piano Secondo</Piano>
-<Ubicazione>Via Dell'Università 50, Cesena, Piano secondo (livello 4)</Ubicazione>
-</Aula>
-</Aule>
-</Evento>
-  </Orario>
+<a>
+  <b>testtestestestestestestest</b>
+</a>
