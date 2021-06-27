@@ -47,9 +47,18 @@ table th {
     return xhttp.responseXML;
 }
     xmlDoc=loadXMLDoc("timeTable.xml");
-    document.write("<table>");
+
     var x=xmlDoc.getElementsByTagName("Evento");
-for (i=0;i<x.length;i++)
+
+    document.write("<table>");
+    document.write("<tr><td>");
+    document.write("Descrizione");
+    document.write("</td><td>");
+    document.write("OraInizio--OraFine");
+    document.write("</td><td>");
+    document.write("Codice");
+    document.write("</td></tr>")
+    for (i=0;i<x.length;i++)
   {
   document.write("<tr><td>");
   document.write(x[i].getElementsByTagName("Descrizione")[0].childNodes[0].nodeValue);
